@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#f2f2f2"           
+    >
+    
+  <RelativeLayout
+      android:id="@+id/seachlayout"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="#f2f2f2"
+         android:orientation="vertical"
+         android:paddingLeft="40dp"
+         android:paddingRight="40dp"
+         android:visibility="gone"
+          >
+
+         <TextView
+             android:id="@+id/wordkey1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="@android:color/black"
+             android:textSize="13pt" />
+
+         <TextView
+             android:id="@+id/wordphono1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/wordkey1"
+             android:textSize="8pt" />
+
+         <ImageView
+             android:id="@+id/imgtran1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/wordphono1"
+             android:layout_gravity="center_horizontal"
+             android:layout_marginTop="5dp"
+             android:src="@mipmap/btn_wordtrans"
+             android:contentDescription="@string/image"
+             />
+
+         <TextView
+             android:id="@+id/wordtrans1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/imgtran1"
+             android:layout_gravity="center_horizontal"
+             android:textColor="@android:color/black"
+             android:textSize="6pt" />
+
+         <ImageView
+             android:id="@+id/imgexample1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/wordtrans1"
+             android:layout_gravity="center_horizontal"
+             android:layout_marginTop="5dp"
+             android:src="@mipmap/btn_wordexample"
+             android:contentDescription="@string/image"
+              />
+
+         <ScrollView
+             android:id="@+id/scrollView11"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/imgexample1" >
+
+             <TextView
+                 android:id="@+id/wordexample1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center_horizontal"
+                 android:textColor="@android:color/black" />
+         </ScrollView>
+
+         <Button
+             android:id="@+id/btnspeek1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_toRightOf="@+id/wordphono1"
+             android:layout_below="@+id/wordkey1"
+             android:background="@mipmap/btn_speek1"
+             android:layout_marginLeft="20dp"
+             />
+
+     </RelativeLayout>
+    
+</LinearLayout>

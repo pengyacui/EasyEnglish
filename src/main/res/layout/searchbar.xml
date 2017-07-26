@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center_vertical"
+    android:background="#00a0e8"
+    >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/btn_sousuokuang"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+    	android:layout_marginLeft="12dp"
+    	android:layout_marginRight="12dp"
+	     android:weightSum="5"
+        >
+        <ImageView 
+            android:id="@+id/search2"
+            android:layout_weight="0.1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/btn_sousuo02"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:contentDescription="@string/image"
+            />
+	<AutoCompleteTextView 
+	    android:id="@+id/searchtext"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="5"
+	    android:layout_marginLeft="4.8dp"
+	    android:background="@android:color/transparent"
+	    android:completionThreshold="1"
+	    android:singleLine="true"
+	    />
+		<ImageView
+		    android:id="@+id/searchclear"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+	   	    android:layout_weight="0.1"
+	   	    android:layout_marginRight="5dp"
+		    android:background="@drawable/btnsearchpageselector"
+		    android:contentDescription="@string/image"
+		    />
+
+  </LinearLayout>
+</LinearLayout>

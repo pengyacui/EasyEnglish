@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f2f2f2" 
+
+     >
+
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="#f2f2f2"
+         android:orientation="vertical"
+         android:paddingLeft="40dp"
+         android:paddingRight="40dp" >
+
+         <TextView
+             android:id="@+id/wordkey"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="aaaa"
+             android:textColor="@android:color/black"
+             android:textSize="13pt" />
+
+         <TextView
+             android:id="@+id/wordphono"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/wordkey"
+             android:text="aaaa"
+             android:textSize="8pt" />
+
+         <ImageView
+             android:id="@+id/imgtran"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/wordphono"
+             android:layout_gravity="center_horizontal"
+             android:layout_marginTop="5dp"
+             android:src="@mipmap/btn_wordtrans" />
+
+         <TextView
+             android:id="@+id/wordtrans"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/imgtran"
+             android:layout_gravity="center_horizontal"
+             android:text="asdasdfadsfadsfadsfadsfadsfadsfasdfasdfadsfasdfasdfasdf"
+             android:textColor="@android:color/black"
+             android:textSize="6pt" />
+
+         <ImageView
+             android:id="@+id/imgexample"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/wordtrans"
+             android:layout_gravity="center_horizontal"
+             android:layout_marginTop="5dp"
+             android:src="@mipmap/btn_wordexample" />
+
+         <ScrollView
+             android:id="@+id/scrollView1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/imgexample" >
+
+             <TextView
+                 android:id="@+id/wordexample"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center_horizontal"
+                 android:textColor="@android:color/black" />
+         </ScrollView>
+         <!--
+        <ListView 
+	    android:id="@+id/examplelist"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/imgexample"
+	    android:divider="@android:color/transparent"
+	    ></ListView>
+         -->
+
+         <Button
+             android:id="@+id/btnspeek"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_toRightOf="@+id/wordphono"
+             android:layout_below="@+id/wordkey"
+             android:background="@mipmap/btn_speek1"
+             android:layout_marginLeft="20dp"
+             />
+
+     </RelativeLayout>
+
+	<RelativeLayout 
+	    android:id="@+id/r2"
+	    android:layout_width="fill_parent"
+	    android:layout_height="50dp"
+	    android:orientation="horizontal"
+	    android:layout_alignParentBottom="true"
+	    android:gravity="center_vertical"
+	    android:background="#00a0e8"	    
+	    >
+    <Button
+        android:id="@+id/btnwordpre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/btnwordpreselector"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="55dp"
+        android:layout_centerVertical="true"
+        />
+
+    <Button
+        android:id="@+id/btnwordplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/btn_wordplay"
+        android:layout_centerInParent="true"
+        />
+    <Button
+        android:id="@+id/btnwordnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/btnwordnextselector"
+        android:background="@android:color/transparent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="55dp"
+        android:layout_centerVertical="true"
+        />    
+    </RelativeLayout>
+</RelativeLayout>

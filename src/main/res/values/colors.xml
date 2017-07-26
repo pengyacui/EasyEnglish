@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="white">#FFFFFF</color>
+    
+    <!-- 控件按下时显示的颜色 -->
+    <color name="list_backgroud_color">#2fb3cb</color>
+    <color name="title_color">#0f8ec5</color>
+    <color name="content_color">#737373</color>
+	
+    <color name="main_btn1">#60a9dc</color>
+    <color name="main_btn2">#4982ad</color>
+    <color name="main_btn3">#005c7e</color>
+    <color name="main_btn4">#4cbd92</color>
+    <color name="main_btn5">#60a9dc</color>
+    <color name="main_btn_press">#00d3ff</color>
+    
+</resources>

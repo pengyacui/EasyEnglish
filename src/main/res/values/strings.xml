@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EasyEnglish</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="nemt">全国高考英语词汇</string>
+    <string name="cet4">大学英语四级词汇</string>
+    <string name="cet6">大学英语六级词汇</string>
+    <string name="ietsl">雅思英语词汇</string>
+    <string name="gre">美国研究生入学考试词汇</string>
+    <string name="settings">设置</string>
+    
+    <string name="nemt_1">NEMT</string>
+    <string name="cet4_1">CET4</string>
+    <string name="cet6_1">CET6</string>
+    <string name="ietsl_1">IETSL</string>
+    <string name="gre_1">GRE</string>
+    <string name="app_id">54ba0f59</string>
+    
+    <string name="dialogspeed">语速：</string>
+    <string name="dialogvolume">音量：</string>
+    <string
+		name="tts_toast_format"
+		formatted="false">缓冲进度为%d%%，播放进度为%d%%</string>
+    
+    <string name="image"></string>
+    <string name="search_hint">输入查询单词</string>
+    
+    <string-array name="NEMT">
+        <item>TABLE_NMET</item>
+        <item>全国高考英语词汇</item>
+    </string-array>
+    
+    <string-array name="CET4">
+        <item>TABLE_CET4</item>
+        <item>大学英语四级词汇</item>
+    </string-array>
+    
+    <string-array name="CET6">
+        <item>TABLE_CET6</item>
+        <item>大学英语六级词汇</item>
+    </string-array>
+    
+    <string-array name="IETSL">
+        <item>TABLE_IETSL</item>
+        <item>雅思英语词汇</item>
+    </string-array>
+    
+    <string-array name="GRE">
+        <item>TABLE_GRE</item>
+        <item>美国研究生入学考试词汇</item>
+    </string-array>
+</resources>
